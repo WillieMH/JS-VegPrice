@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="vegprice.js"></script>
+</head>
+<body>
+  <div class="shop">
+    <h1>WELCOME TO THE NOLOGY GREENGROCERS</h1>
+    <div>
+      <h2>Prices of veg</h2>
+      <select name="Veg" id="Veg" onchange="priceOfVeg(event)">
+        <option value="potatoes">potatoes</option>
+        <option value="carrots">carrots</option>
+        <option value="brocolli">brocolli</option>
+        <option value="cabbage">cabbage</option>
+        <option value="asparagus">asparagus</option>
+      </select>
+    </div>
+
+    <div class="priceresult">
+      <div id="price-of-veg"></div>
+    </div>
+  </div>
+</body>
+</html>
