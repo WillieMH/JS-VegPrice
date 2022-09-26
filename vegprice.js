@@ -23,7 +23,7 @@ function priceOfVeg(event) {
   }
 
 // let quotePrice = "The price of " + veg + " is " + pricePerkg;
-let quotePrice = `The price of   ${veg}  is ` + pricePerkg;
+let quotePrice = `The price of ${veg} is ${pricePerkg}`;
 
   document.getElementById("price-of-veg").innerHTML = quotePrice;
 }
